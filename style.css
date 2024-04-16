@@ -51,9 +51,7 @@ header div.flex-nav .button{
 .header-flex{
     background-color: #628cf7;
     padding: 10rem 0rem;
-    text-align: center;
-
-    
+    text-align: center;   
 }
 
 div.header-flex .button{
@@ -65,12 +63,67 @@ div.header-flex .button{
 .main-flex {
     display: flex;
     background-color: rgb(238, 238, 238);
-    padding: 11rem 0rem;
+    padding: 10rem 0rem;
     gap: 3rem;
     justify-content: center;
 }
 
+.item-img{
+    border: 1px solid grey;
+    width: 33%;
+    text-align: center;
+    align-self: center;
+    height: 14rem;
+}
 
+.item-info{
+    border: 1px solid grey;
+    width: 33%;
+    text-align: center;
+    
+}
 
+.flex-second{
+    display: flex;
+    background-color: rgb(184, 184, 184);
+    padding: 10rem 0rem;
+    gap: 2.5rem;
+    justify-content: center;
+    flex-direction: row-reverse;
 
+}
 
+.main-lastflex{
+    display: flex;
+    background-color: rgb(184, 184, 184);
+    padding: 10rem 10rem;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction:column-reverse;
+}
+
+.item-img-last{
+    border: 1px solid rgb(172, 172, 172);
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    height: 14rem;
+    order: 1;
+}
+
+.item-info-last{
+    border: 1px solid grey;
+    text-align: center;
+    order: 4;
+}
+
+div > h2{
+    text-align: center;
+    order: 0;
+}
+
+div.main-lastflex > button{
+    width: 10rem;
+    align-self: center;
+    order: -1;
+}
