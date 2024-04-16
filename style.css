@@ -127,3 +127,49 @@ div.main-lastflex > button{
     align-self: center;
     order: -1;
 }
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #23272a;
+    padding: 4rem 3rem 1rem 3rem;
+    column-gap: 18px;
+}
+.titolo-footer{
+    width: 70%;
+}
+
+.blue{
+    color:#6a81d2 ;
+    font-size: 10px;
+
+}
+
+li{
+    margin: 0.5rem 0.1rem 0.1rem 0.1rem;
+    font-size: 10px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-button{
+    display: flex;
+    background-color: #23272a;
+    align-items: flex-end;
+    margin: 1rem 5rem 1rem 5rem;
+    justify-content: space-between;
+}
