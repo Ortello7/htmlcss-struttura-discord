@@ -173,3 +173,19 @@ ul{
     margin: 1rem 5rem 1rem 5rem;
     justify-content: space-between;
 }
+
+.end-footer{
+    background-color: #222629;
+    height: 7rem;
+    padding-top: 1rem;
+}
+
+header div.flex-nav p{
+    margin: 1rem;
+}
+
+hr{
+    color: #4f5d8c;
+    margin: 1rem 5rem 1rem 5rem;
+    border: 1px solid #7187d9;
+}
